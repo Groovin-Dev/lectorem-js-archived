@@ -1,13 +1,7 @@
 # Lectorem
 
-Feature-full buffer reader for Node.js.
+Buffer reader for Node.js.
 
-## Installation
+# Killed
 
-```bash
-npm install lectorem
-```
-
-## Usage
-
-Not implemented yet.
+I am not going to continue this project any further
