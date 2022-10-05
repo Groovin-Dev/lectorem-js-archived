@@ -1,6 +1,11 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
-  return a + b;
-};
+//
+// index.ts
+// Lectorem
+//
+// Created by Groovin-Dev on 10-05-2022
+//
+
+import Reader from "./reader";
+import ByteOrder from "./enums/ByteOrder";
+
+export { Reader, ByteOrder };
