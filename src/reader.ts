@@ -10,12 +10,12 @@ import ByteOrder from './enums/ByteOrder';
 export default class Reader {
 	buffer: Buffer;
 	encoding: BufferEncoding = 'utf8';
-	delimiter: string = '\0';
+	delimiter = '\0';
 	byteOrder: ByteOrder = ByteOrder.LittleEndian;
 
-	private index: number = 0;
+	private index = 0;
 
-	constructor(buffer: Buffer, encoding: BufferEncoding = 'utf8', delimiter: string = '\0', byteOrder: ByteOrder = ByteOrder.LittleEndian) {
+	constructor(buffer: Buffer, encoding: BufferEncoding = 'utf8', delimiter = '\0', byteOrder: ByteOrder = ByteOrder.LittleEndian) {
 		this.buffer = buffer;
 		this.encoding = encoding;
 		this.delimiter = delimiter;
